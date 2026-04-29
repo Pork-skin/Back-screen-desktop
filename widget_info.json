@@ -1,23 +1,14 @@
 {
-  "type": "widget",
-   this widget (Optional)
-  "minVersion": 99,
-  "maxVersion": 111,
-  "name": "Example Widget",
+  "name": "背屏桌面",
   "business_setup": {
-    "id": "Back_screen_desktop",
-    "renameable": false
+    "id": "back_screen_desktop",
+    "renameable": true
   },
   "card_setup": {
-    "name": "Back screen desktop",
+    "name": "背屏桌面",
     "package": "hk.uwu.reareye",
     "priority": 500,
     "sticky": true,
-    "renameable": ture
-  },
-  "scene_setup": {
-  "re:com.example.(.*)" or other else
-    "scene": "messageCenter",
-    "pkg": "com.example.app"
+    "renameable": true
   }
 }
