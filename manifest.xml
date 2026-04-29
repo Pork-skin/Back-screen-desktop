@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Widget version="1" frameRate="30" type="awesome" screenWidth="1080" scaleByDensity="false">
+
+
+    <Image x="805" y="350" w="300" h="300" src="settings.png" align="center" alignV="center" />
+    <Button x="805" y="350" w="300" h="300" align="center" alignV="center">
+        <Triggers><Trigger action="up"><IntentCommand action="android.intent.action.MAIN" package="com.flue.launcher" class="com.flue.launcher.LauncherActivity" /></Trigger></Triggers>
+    </Button>
+
+    
+
+</Widget>
