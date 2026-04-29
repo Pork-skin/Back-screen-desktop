@@ -1,20 +1,13 @@
 {
-  // Support widget (default) or wallpaper
-  // 支持 widget (默认) 和 wallpaper
   "type": "widget",
-  // Minimum REAREye version required to install this widget (Optional)
-  // 安装此组件所需要最低的REAREye版本 (可选)
+   this widget (Optional)
   "minVersion": 99,
-  // Maximum REAREye version supported by this widget (Optional)
-  // 此小部件支持的最高 REAREye 版本 (可选)
   "maxVersion": 111,
   "name": "Example Widget",
   "business_setup": {
     "id": "Back_screen_desktop",
     "renameable": false
   },
-  // Card setup is optional
-  // 卡片设置是可选的
   "card_setup": {
     "name": "Back screen desktop",
     "package": "hk.uwu.reareye",
@@ -22,15 +15,9 @@
     "sticky": true,
     "renameable": ture
   },
-  // Only available on type is notification
-  // 仅在类型为notification时可用 
   "scene_setup": {
-    // Support regex prefix "re:" or "regex:"
-    // 支持正则规则前缀 "re:" 或 "regex:"
-    // Example: "re:.*", "re:CH:.*", "re:com.example.(.*)" or other else
+  "re:com.example.(.*)" or other else
     "scene": "messageCenter",
-    // Also support regex rule
-    // 同样支持正则规则
     "pkg": "com.example.app"
   }
 }
